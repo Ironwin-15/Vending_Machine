@@ -66,14 +66,6 @@ A snippet from the inventory table is given below-
 %cd Vending_Machine
 !python simulation/vending_machine_sim.py
 ```
-
-Open:
-
-```text
-simulation/Vending_Machine_Sim.ipynb
-```
-
-Run all notebook cells.
 Ensure the notebook uses:
 
 ```python
