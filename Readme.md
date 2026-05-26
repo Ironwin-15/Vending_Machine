@@ -62,11 +62,8 @@ A snippet from the inventory table is given below-
 
 ```bash
 !git clone https://github.com/Ironwin-15/Vending_Machine.git
-
 !pip install -r Vending_Machine/requirements.txt
-
 %cd Vending_Machine
-
 !python simulation/vending_machine_sim.py
 ```
 
