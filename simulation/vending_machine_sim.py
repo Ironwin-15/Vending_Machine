@@ -88,7 +88,7 @@ class CustomVendingMachine:
 # ==========================================
 # EXCEL CONFIGURATION & GENERATOR
 # ==========================================
-excel_filename = "/data/vending_items.xlsx"
+excel_filename = "data/vending_items.xlsx"
 
 # Standard columns expected in your spreadsheet:
 # "Item Code", "Item Name", "Price"
