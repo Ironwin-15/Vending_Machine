@@ -62,10 +62,9 @@ A snippet from the inventory table is given below-
 
 ```bash
 import os
-git clone https://github.com/Ironwin-15/Vending_Machine.git
-cd YOUR_REPOSITORY
-pip install -r requirements.txt
-jupyter notebook
+!git clone https://github.com/Ironwin-15/Vending_Machine.git
+!cd Vending_Machine
+!pip install -r Vending_Machine/requirements.txt
 ```
 
 Open:
