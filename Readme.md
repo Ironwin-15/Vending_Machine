@@ -60,22 +60,23 @@ A snippet from the inventory table is given below-
 
 ## Execution Instructions
 
-### Run the Python Notebook
-1. Navigate to the `simulation/` directory.
-2. Launch `vending_machine_sim.ipynb` via Jupyter or upload it to Google Colab.
-3. Ensure `vending_items.xlsx` is accessible in your script workspace directory path.
-4. Execute cells sequentially to interface with the terminal simulation UI panel.
-
-### Compiling Natively inside Google Colab (Icarus Toolchain)
-To evaluate the true hardware file execution pipelines on a headless linux runtime container, open a blank cell block and run:
 ```bash
-# 1. Install open-source Icarus synthesis parser engine
-!apt-get install iverilog vvp -y
+git clone https://github.com/Ironwin-15/Vending_Machine.git
+cd YOUR_REPOSITORY
+pip install -r requirements.txt
+jupyter notebook
+```
 
-# 2. Build structural logic tree maps
-!iverilog -o v_sim design/vend.v testbench/tb_vend.v
+Open:
 
-# 3. Stream hardware timing diagnostics to execution log console
-!vvp v_sim
+```text
+simulation/Vending_Machine_Sim.ipynb
+```
+
+Run all notebook cells.
+Ensure the notebook uses:
+
+```python
+excel_filename = "../data/vending_items.xlsx"
 ```
 
